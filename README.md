@@ -1,23 +1,22 @@
+# I moved the development [here](https://github.com/UNICT-DMI/UNICT-Telegram-Channels-Groups)
+
 A live demo is available [here](https://lorenzo-pappalardo.github.io/UNICT-Telegram-Channels-Groups)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What's the purpose?
 
-## Available Scripts
+This web application shows all telegram channels linked to the University of Catania(UNICT). It also shows each telegram group associated with each subject of UNICT's Computer Science study course.
 
-In the project directory, you can run:
+## You just cloned the repository, what to do next?
+
+First of all, you should download and install Node.js from the [official site](https://nodejs.org/en/download/).
+Then you should open a CLI and move into the project directory. Once you've done that you should get all the necessary dependencies by running the following command: `npm install`.
+
+## Basic commands
 
 ### `npm start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -29,18 +28,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Credits
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Lorenzo Pappalardo](https://github.com/Lorenzo-Pappalardo)
