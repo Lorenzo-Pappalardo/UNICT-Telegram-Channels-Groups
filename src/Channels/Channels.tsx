@@ -15,11 +15,11 @@ export function Channels(): JSX.Element {
   const [channelsArray, setChannelsArray] = useState<ChannelEntry[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [searchInput, setSearchInput] = useState<string>("");
-  const promises: Promise<any>[] = [];
-  const promisesPictures: Promise<any>[] = [];
-  const promisesSubscribers: Promise<any>[] = [];
 
   useEffect(() => {
+    const promises: Promise<any>[] = [];
+    const promisesPictures: Promise<any>[] = [];
+    const promisesSubscribers: Promise<any>[] = [];
     const sortedArray: ChannelEntry[] = [];
 
     function getData(channelName: string): void {
@@ -91,7 +91,7 @@ export function Channels(): JSX.Element {
     <div>
       <div className="routing">
         <h1 className="rankingTitle">Classifica canali UNICT</h1>
-        <Link to="/UNICT-Telegram-Channels-Groups/groups" className="groupsLink">
+        <Link to="/groups" className="groupsLink">
           Visualizza Gruppi DMI UNICT
         </Link>
       </div>
@@ -136,7 +136,9 @@ function Card(props: any): JSX.Element {
             alt={props.title + " picture"}
           />
         </a>
-        <h2 className="rankings">{props.isSearch ? "" : props.ranking + "°"}</h2>
+        <h2 className="rankings">
+          {props.isSearch ? "" : props.ranking + "°"}
+        </h2>
       </div>
       <a className="channelsLinks" href={props.link}>
         <h1>{props.title}</h1>

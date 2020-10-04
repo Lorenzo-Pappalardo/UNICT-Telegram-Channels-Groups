@@ -18,9 +18,9 @@ export function Groups(): JSX.Element {
   const [groupsArray, setGroupsArray] = useState<GroupEntry[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [searchInput, setSearchInput] = useState<string>("");
-  const promises: Promise<any>[] = [];
 
   useEffect(() => {
+    const promises: Promise<any>[] = [];
     const sortedArray: GroupEntry[] = [];
 
     function getData(groupName: string, year: string): void {
@@ -34,7 +34,9 @@ export function Groups(): JSX.Element {
 
       promises.push(
         fetch(
-          `http://188.213.170.165/list-telegram-groups/${year}/${groupName}.json`
+          `http://usefulness.altervista.org/list-telegram-groups/mid.php?path=${encodeURIComponent(
+            year + "/" + groupName
+          )}.json`
         )
           .then(res => res.json())
           .then(data => {
@@ -88,7 +90,7 @@ export function Groups(): JSX.Element {
     <div>
       <div className="routing">
         <h1 className="rankingTitle">Classifica gruppi DMI UNICT</h1>
-        <Link to="/UNICT-Telegram-Channels-Groups" className="channelsLink">
+        <Link to="/channels" className="channelsLink">
           Visualizza Canali UNICT
         </Link>
       </div>

@@ -1,6 +1,6 @@
 {
-  "name": "unict-telegram-channels-by-me",
-  "version": "0.1.0",
+  "name": "UNICT-Telegram-Channels-Groups",
+  "version": "1.0.0",
   "private": true,
   "homepage": ".",
   "dependencies": {
