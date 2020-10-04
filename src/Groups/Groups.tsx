@@ -34,7 +34,7 @@ export function Groups(): JSX.Element {
 
       promises.push(
         fetch(
-          `http://usefulness.altervista.org/list-telegram-groups/mid.php?path=${encodeURIComponent(
+          `https://usefulness.altervista.org/list-telegram-groups/mid.php?path=${encodeURIComponent(
             year + "/" + groupName
           )}.json`
         )
