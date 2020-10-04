@@ -4,7 +4,8 @@ A live demo is available [here](https://lorenzo-pappalardo.github.io/UNICT-Teleg
 
 ## What's the purpose?
 
-This web application shows all telegram channels linked to the University of Catania(UNICT). It also shows each telegram group associated with each subject of UNICT's Computer Science study course.
+This web application shows all telegram channels linked to the University of Catania(UNICT).<br />
+It also shows each telegram group associated with each subject of UNICT's Computer Science study course.
 
 ## You just cloned the repository, what to do next?
 
