@@ -1,6 +1,4 @@
-# I moved the development [here](https://github.com/UNICT-DMI/UNICT-Telegram-Channels-Groups)
-
-A live demo is available [here](https://lorenzo-pappalardo.github.io/UNICT-Telegram-Channels-Groups)
+# I moved the development [here](https://github.com/UNICT-DMI/unict-telegram-hub) and a live demo is available [here](https://telegram.unictdev.org/)
 
 ## What's the purpose?
 
